@@ -80,6 +80,8 @@ h2 {
     margin: auto;
 
 }
+
+/*Music Page*/
 .audio {
     color: black;
     background-color: white;
@@ -90,6 +92,17 @@ h2 {
     justify-content: space-between;
     flex-wrap: wrap;
 }
+.B {
+    display: flex;
+    justify-content: space-between;
+}
+.x{
+    width: 48%;
+}
+.y{
+    width: 48%;
+}
+
 .gallery {
     margin: 3em;
     display: flex;
@@ -104,4 +117,26 @@ footer {
     margin-top: 7em;
     padding: 2em;
     height: 7em;
+}
+
+/*About Me*/
+.AboutMe {
+    margin: 2em;
+    color: black;
+    display: flex;
+}
+.makeitblack {
+    color: black;
+}
+.left {
+    margin: 2em;
+}
+.right {
+    margin: 2em;
+}
+
+/*Contact*/
+.ContactMe {
+    margin: 2em;
+    color: black;
 }
