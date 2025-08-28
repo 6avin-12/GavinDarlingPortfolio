@@ -1,17 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    	<meta charset="utf-8">
+    <meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-    	<title>Portfolio</title>
-    <!-- Bootstrap -->
-	<link href="../css/bootstrap-4.4.1.css" rel="stylesheet">
+    
+	<title>Portfolio</title>
 	<link href="style.css" rel="stylesheet">
 	<link href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgMVQ7i96Km37-nsEJVyq-MNRXmaTlG3xfovwgOqqeH-mTUza8Fm_You0Bgj4276CiBixEl_wp3nAg_xTqo3qlPEoppUeRRlmUOQk2Me8YXIPz5BA8jkBh9XSvqWyJjbUDiiLQLQkJUg_xZ5S0i4VEQUfORVopvK-Z2Tofwd3AnmPc1udOhILXCbEqFGrgY/s16000/logo.png" rel="icon" type="image/x-icon">
 </head>
+
 <body>
-  	<!-- body code goes here -->
 <div class="sub-nav">
 <div class="header">
 	<!--Logo-->
@@ -20,16 +19,16 @@
 	<h1 class="heading">Portfolio</h1>
 	
 	<!--Hamburger menu-->
-	<div id="hamburger-menu">
-   		<button class="hamburger-button">☰</button>
-   		<div class="nav-links">
-       			<a href="index.html">Home</a>
-       			<a href="about.html">About</a>
-       			<a href="portfolio.html">Portfolio</a>
+	<div class="dropdown">
+		<button onclick="myFunction()" class="dropbtn">☰</button>
+		<div id="myDropdown" class="dropdown-content">
+			<a href="index.html">Home</a>
+			<a href="about.html">About</a>
+			<a href="portfolio.html">Portfolio</a>
 			<a href="education.html">Education</a>
 			<a href="contact.html">Contact</a>
-   		</div>
-	</div>	
+		</div>
+	</div>
 </div>
 <div class="portfolio-subnav">
 	<a href="#graphic-design">Graphic design</a>
@@ -107,16 +106,16 @@
 <footer>
 <div class="links">
 	<div class="footer-links">
-		<a href="../index.html">Home</a><br>
+		<a href="index.html">Home</a><br>
 		<a href="about.html">About</a><br>
 		<a href="portfolio.html">Portfolio</a><br>
 		<a href="education.html">Education</a><br>
 		<a href="contact.html">Contact</a>
 	</div>
 	<div class="footer-contacts">
-		<a href="https://www.linkedin.com/in/gavin-evalt-b9a093211/"><img src="../_page/icons/linkedin.png" alt="LinkedIn"></a>
-		<a href="https://www.youtube.com/@gavine2363"><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi54vsh3T6oCbgmli28N6Pr3-lo8JT5lnQ_hZeG1sFSlcLQy1W-EyOgfALBHoYa8eKy5qL_DX_PXDkDx75830GLLHzs2erXlW-KHas65VJbLkTcX8DGZfc_Zt_i3oKgyZhFHyhw8jF2Jo5WtvQkcZ39CikN-pIi_DPK4ubZTwwUMOaDdRJ4Eki-tiHCssBN/s1600/youtube.png" alt="YouTube"></a>
-		<a href="https://www.reddit.com/user/KRA_DAK/submitted/"><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiGQ3EkT8rVFqknHb-rqKPwwGbToUMxZmtGVpqUGx5Pau9l_zcGVU8qF-GBcOCWTKL0pW0vWDwAAB9HfQto1jREMkcXYT7fO5RTKUIR0xF5VHTjCuWOfsmCNT1ZHJWVSBaR8NUfF0xOnWkUno6vlP_o556g5z8cOxhMYt9c7_nujcoLNToFKOwrFL_IBiUM/s1600/reddit.png" alt="Reddit"></a>
+		<a href="https://www.linkedin.com/in/gavin-evalt-b9a093211/"><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjf_G2Vjve6aX8qhG3zjSMkIFJXkWJcyDr9A2MqLQRwv-esxqGa5pD7tU9qIon8UNocplmwEDUia5dTO_ayaqqGMz4kk6ls-RBM45DMck-GaQmy7FGkqfHx53-dBuG32nBFhjU_Mxsx5BDJvzzIN2_xhWRH_XAZKBUnkzC000pmKnQzNnCi0R6a_kTZYAF7/s1600/linkedin.png" alt="LinkedIn"></a>
+			<a href="https://www.youtube.com/@gavine2363"><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi54vsh3T6oCbgmli28N6Pr3-lo8JT5lnQ_hZeG1sFSlcLQy1W-EyOgfALBHoYa8eKy5qL_DX_PXDkDx75830GLLHzs2erXlW-KHas65VJbLkTcX8DGZfc_Zt_i3oKgyZhFHyhw8jF2Jo5WtvQkcZ39CikN-pIi_DPK4ubZTwwUMOaDdRJ4Eki-tiHCssBN/s1600/youtube.png" alt="YouTube"></a>
+			<a href="https://www.reddit.com/user/KRA_DAK/submitted/"><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiGQ3EkT8rVFqknHb-rqKPwwGbToUMxZmtGVpqUGx5Pau9l_zcGVU8qF-GBcOCWTKL0pW0vWDwAAB9HfQto1jREMkcXYT7fO5RTKUIR0xF5VHTjCuWOfsmCNT1ZHJWVSBaR8NUfF0xOnWkUno6vlP_o556g5z8cOxhMYt9c7_nujcoLNToFKOwrFL_IBiUM/s1600/reddit.png" alt="Reddit"></a>
 	</div>
 </div>
 <a href="../index.html"><img class="logo" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgMVQ7i96Km37-nsEJVyq-MNRXmaTlG3xfovwgOqqeH-mTUza8Fm_You0Bgj4276CiBixEl_wp3nAg_xTqo3qlPEoppUeRRlmUOQk2Me8YXIPz5BA8jkBh9XSvqWyJjbUDiiLQLQkJUg_xZ5S0i4VEQUfORVopvK-Z2Tofwd3AnmPc1udOhILXCbEqFGrgY/s16000/logo.png" alt="Logo"></a>
